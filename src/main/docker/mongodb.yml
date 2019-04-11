@@ -1,0 +1,8 @@
+version: '2'
+services:
+  spingularchat-mongodb:
+    image: mongo:4.0.6
+    ports:
+      - '27017:27017'
+    # volumes:
+    #     - ~/volumes/jhipster/SpingularChat/mongodb/:/data/db/
