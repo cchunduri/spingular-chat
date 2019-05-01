@@ -1,0 +1,13 @@
+entity Chat {
+	sender String
+    reciver String
+}
+
+entity Message {
+	messageText String
+    messageTime LocalDate
+}
+
+relationship OneToOne {
+  Chat{Chat} to Message{Message}
+}
