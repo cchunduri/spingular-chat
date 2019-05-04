@@ -1,0 +1,24 @@
+{
+  "spingularChatApp": {
+    "chatMessage": {
+      "home": {
+        "title": "Chat Messages",
+        "createLabel": "Create a new Chat Message",
+        "createOrEditLabel": "Create or edit a Chat Message"
+      },
+      "created": "A new Chat Message is created with identifier {{ param }}",
+      "updated": "A Chat Message is updated with identifier {{ param }}",
+      "deleted": "A Chat Message is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Chat Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Chat Message"
+      },
+      "sender": "Sender",
+      "reciver": "Reciver",
+      "messageText": "Message Text",
+      "messageTime": "Message Time"
+    }
+  }
+}

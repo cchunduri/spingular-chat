@@ -1,0 +1,22 @@
+{
+  "spingularChatApp": {
+    "chatRoom": {
+      "home": {
+        "title": "Chat Rooms",
+        "createLabel": "Crear nuevo Chat Room",
+        "createOrEditLabel": "Crear o editar Chat Room"
+      },
+      "created": "Un nuevo Chat Room ha sido creado con el identificador {{ param }}",
+      "updated": "Un Chat Room ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Chat Room ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Chat Room {{ id }}?"
+      },
+      "detail": {
+        "title": "Chat Room"
+      },
+      "name": "Name",
+      "desc": "Desc"
+    }
+  }
+}

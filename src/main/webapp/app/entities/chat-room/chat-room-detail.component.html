@@ -1,0 +1,31 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="chatRoom">
+            <h2><span jhiTranslate="spingularChatApp.chatRoom.detail.title">Chat Room</span> {{chatRoom.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="spingularChatApp.chatRoom.name">Name</span></dt>
+                <dd>
+                    <span>{{chatRoom.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="spingularChatApp.chatRoom.desc">Desc</span></dt>
+                <dd>
+                    <span>{{chatRoom.desc}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/chat-room', chatRoom.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

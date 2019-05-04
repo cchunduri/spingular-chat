@@ -1,0 +1,14 @@
+
+entity ChatRoom {
+    name String
+    desc String
+}
+
+entity ChatMessage {
+	id Long
+	sender Long
+    reciver Long
+    messageText String
+    messageTime LocalDate
+}
+

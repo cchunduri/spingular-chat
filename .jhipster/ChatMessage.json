@@ -1,0 +1,31 @@
+{
+    "name": "ChatMessage",
+    "fields": [
+        {
+            "fieldName": "sender",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "reciver",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "messageText",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "messageTime",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190504070050",
+    "entityTableName": "chat_message",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
